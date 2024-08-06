@@ -24,7 +24,7 @@ stl_r_std=(stl_r-stl_r.mean())/stl_r.std(ddof=0)
 # グラフを画像出力
 plt.figure()
 stl_r_std.plot()
-plt.savefig(R"C:\Users\sumikko\Desktop\btc\btc.png")
+plt.savefig(R"C:\Users\XXXX\Desktop\btc\btc.png")
 
 # 今日の購入金額の計算(基準を250円とする)
 amount_sale=math.ceil(stl_r_std.iloc[-1]*250)
